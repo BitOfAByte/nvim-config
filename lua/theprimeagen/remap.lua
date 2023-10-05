@@ -13,3 +13,5 @@ vim.keymap.set("n", "<leader>a", "ggVG", {noremap=true,silent=true})
 vim.keymap.set("n", "<leader>c", "y", {noremap=true, silent=true})
 vim.keymap.set("n", "<leader>cf", "<cmd>AdvancedNewFile<CR>", {noremap=true})
 vim.keymap.set("n", "<leader>u", "<cmd>u<CR>", {noremap=true, silent=true})
+vim.keymap.set('i', '<C-/>', [[:call copilot#Accept()<CR>]], {silent = true, noremap = true})
+
