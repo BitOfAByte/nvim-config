@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["AdvancedNewFile.nvim"] = {
+    loaded = true,
+    path = "/home/toby/.local/share/nvim/site/pack/packer/start/AdvancedNewFile.nvim",
+    url = "https://github.com/Mohammed-Taher/AdvancedNewFile.nvim"
+  },
   LuaSnip = {
     loaded = true,
     path = "/home/toby/.local/share/nvim/site/pack/packer/start/LuaSnip",

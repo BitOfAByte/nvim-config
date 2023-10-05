@@ -11,4 +11,4 @@ vim.keymap.set("n", "<leader>fw", ":FormatWrite<CR>", { noremap = true, silent=t
 vim.keymap.set("n", "<leader>da", ":%d<CR>", { noremap = true, silent= true })
 vim.keymap.set("n", "<leader>a", "ggVG", {noremap=true,silent=true})
 vim.keymap.set("n", "<leader>c", "y", {noremap=true, silent=true})
-
+vim.keymap.set("n", "<leader>cf", "<cmd>AdvancedNewFile<CR>", {noremap=true})

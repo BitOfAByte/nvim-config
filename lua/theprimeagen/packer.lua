@@ -57,4 +57,5 @@ return require("packer").startup(function(use)
 			require("stylua-nvim").setup({ config_file = "stylua.toml" })
 		end,
 	})
+    use 'Mohammed-Taher/AdvancedNewFile.nvim'
 end)
