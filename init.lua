@@ -4,6 +4,7 @@ vim.cmd([[colorscheme gruvbox]])
 -- Automatically load keymaps
 vim.cmd("source ~/.config/nvim/lua/theprimeagen/remap.lua")
 -- disable netrw at the very start of your init.lua
+vim.cmd("source ~/.config/nvim/after/plugin/mason.lua")
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 

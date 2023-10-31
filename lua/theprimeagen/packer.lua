@@ -57,5 +57,16 @@ return require("packer").startup(function(use)
 			require("stylua-nvim").setup({ config_file = "stylua.toml" })
 		end,
 	})
-    use 'Mohammed-Taher/AdvancedNewFile.nvim'
+	use("Mohammed-Taher/AdvancedNewFile.nvim")
+	use({
+		"moozd/aidoc.nvim",
+		config = function()
+			require("aidoc").setup({
+				email = "<your email is optional>",
+				width = 65,
+				keymap = "<leader>d",
+			})
+		end,
+	})
+	use("lervag/vimtex")
 end)

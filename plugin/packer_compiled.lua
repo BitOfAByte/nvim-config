@@ -84,6 +84,12 @@ _G.packer_plugins = {
     path = "/home/toby/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["aidoc.nvim"] = {
+    config = { "\27LJ\2\nr\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\3\nwidth\3A\nemail\29<your email is optional>\vkeymap\14<leader>d\nsetup\naidoc\frequire\0" },
+    loaded = true,
+    path = "/home/toby/.local/share/nvim/site/pack/packer/start/aidoc.nvim",
+    url = "https://github.com/moozd/aidoc.nvim"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/toby/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -174,10 +180,19 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/toby/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  vimtex = {
+    loaded = true,
+    path = "/home/toby/.local/share/nvim/site/pack/packer/start/vimtex",
+    url = "https://github.com/lervag/vimtex"
   }
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: aidoc.nvim
+time([[Config for aidoc.nvim]], true)
+try_loadstring("\27LJ\2\nr\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\3\nwidth\3A\nemail\29<your email is optional>\vkeymap\14<leader>d\nsetup\naidoc\frequire\0", "config", "aidoc.nvim")
+time([[Config for aidoc.nvim]], false)
 -- Config for: stylua-nvim
 time([[Config for stylua-nvim]], true)
 try_loadstring("\27LJ\2\nX\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\16config_file\16stylua.toml\nsetup\16stylua-nvim\frequire\0", "config", "stylua-nvim")
