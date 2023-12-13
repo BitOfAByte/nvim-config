@@ -40,7 +40,6 @@ return require("packer").startup(function(use)
 	})
 
 	use({ "folke/neodev.nvim", opts = {} })
-	use("hrsh7th/cmp-nvim-lsp")
 	use("hrsh7th/nvim-cmp")
 	use("L3MON4D3/LuaSnip")
 	use("saadparwaiz1/cmp_luasnip")
@@ -62,7 +61,7 @@ return require("packer").startup(function(use)
 		"moozd/aidoc.nvim",
 		config = function()
 			require("aidoc").setup({
-				email = "<your email is optional>",
+				email = "tjens23@student.sdu.dk",
 				width = 65,
 				keymap = "<leader>d",
 			})

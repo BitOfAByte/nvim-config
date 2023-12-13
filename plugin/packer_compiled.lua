@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/toby/.cache/nvim/packer_hererocks/2.1.1694285958/share/lua/5.1/?.lua;/home/toby/.cache/nvim/packer_hererocks/2.1.1694285958/share/lua/5.1/?/init.lua;/home/toby/.cache/nvim/packer_hererocks/2.1.1694285958/lib/luarocks/rocks-5.1/?.lua;/home/toby/.cache/nvim/packer_hererocks/2.1.1694285958/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/toby/.cache/nvim/packer_hererocks/2.1.1694285958/lib/lua/5.1/?.so"
+local package_path_str = "/home/toby/.cache/nvim/packer_hererocks/2.1.1699392533/share/lua/5.1/?.lua;/home/toby/.cache/nvim/packer_hererocks/2.1.1699392533/share/lua/5.1/?/init.lua;/home/toby/.cache/nvim/packer_hererocks/2.1.1699392533/lib/luarocks/rocks-5.1/?.lua;/home/toby/.cache/nvim/packer_hererocks/2.1.1699392533/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/toby/.cache/nvim/packer_hererocks/2.1.1699392533/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -85,7 +85,7 @@ _G.packer_plugins = {
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
   ["aidoc.nvim"] = {
-    config = { "\27LJ\2\nr\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\3\nwidth\3A\nemail\29<your email is optional>\vkeymap\14<leader>d\nsetup\naidoc\frequire\0" },
+    config = { "\27LJ\2\np\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\3\nwidth\3A\vkeymap\14<leader>d\nemail\27tjens23@student.sdu.dk\nsetup\naidoc\frequire\0" },
     loaded = true,
     path = "/home/toby/.local/share/nvim/site/pack/packer/start/aidoc.nvim",
     url = "https://github.com/moozd/aidoc.nvim"
@@ -191,7 +191,7 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Config for: aidoc.nvim
 time([[Config for aidoc.nvim]], true)
-try_loadstring("\27LJ\2\nr\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\3\nwidth\3A\nemail\29<your email is optional>\vkeymap\14<leader>d\nsetup\naidoc\frequire\0", "config", "aidoc.nvim")
+try_loadstring("\27LJ\2\np\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\3\nwidth\3A\vkeymap\14<leader>d\nemail\27tjens23@student.sdu.dk\nsetup\naidoc\frequire\0", "config", "aidoc.nvim")
 time([[Config for aidoc.nvim]], false)
 -- Config for: stylua-nvim
 time([[Config for stylua-nvim]], true)
